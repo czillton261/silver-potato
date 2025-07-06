@@ -1,7 +1,7 @@
 function replaceShortcodes() {
     const shortcodes = {
-       pow:  { name: 'Watch', regex: /\[sgt id='(.*?)'\]/g,  url: 'https://fastdramahd.com/p/' },
-       pod: { name: 'Download', regex: /\[egt id='(.*?)'\]/g, url: 'https://fastdramahd.com/p/' },
+       pow:  { name: 'Watch', regex: /\[pow id='(.*?)'\]/g,  url: 'https://www.fastdramahd.com/p/' },
+       pod: { name: 'Download', regex: /\[pod id='(.*?)'\]/g, url: 'https://www.fastdramahd.com/p/' },
     };
 
     // Select elements with any of the target classes
